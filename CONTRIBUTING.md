@@ -20,7 +20,7 @@
    # Linux / Steam Deck
    cp Directory.Build.props.example Directory.Build.props
    ```
-   Edit `Directory.Build.props` and set `BepInExPath` to your game's BepInEx directory.
+   Edit `Directory.Build.props` and set `GameDir` to your game root directory.
 
 3. **Install dependencies**
    - [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
